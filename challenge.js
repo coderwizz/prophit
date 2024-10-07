@@ -263,15 +263,15 @@ export class Balloon extends Challenge {
         context.font = 'bold 36x "Libre Baskerville", serif';
         context.textAlign = 'left';
         context.textBaseline = 'middle';
-        context.fillText(`Winnings: $${this.value}`, 24, this.buttonY + this.buttonHeight / 2); // 20px margin from the left
+        context.fillText(`Winnings: $${this.value}`, 24, this.buttonY + 0.98 * this.buttonHeight / 2); // 24px margin from the left
 
-        // Draw a "Balloon popped!" message if the balloon has popped
+        // Draw a "Balloon popped" message if the balloon has popped
         if (this.popped) {
             context.fillStyle = 'rgb(57, 86, 171)';
             context.font = 'bold 32px "Libre Baskerville", serif';
             context.textAlign = 'center';
             context.textBaseline = 'middle';
-            context.fillText('Balloon popped!', canvas.width / 2, canvas.height / 2); // Center the message
+            context.fillText('Balloon popped', canvas.width / 2, canvas.height / 2); // Center the message
         }
 
         // guide 
@@ -327,15 +327,15 @@ export class Balloon extends Challenge {
         context.font = 'bold 36px "Libre Baskerville", serif';
         context.textAlign = 'left';
         context.textBaseline = 'middle';
-        context.fillText(`Winnings: $${this.value}`, 24, this.buttonY + this.buttonHeight / 2); // 20px margin from the left
+        context.fillText(`Winnings: $${this.value}`, 24, this.buttonY + 0.98 * this.buttonHeight / 2); // 20px margin from the left
     
-        // Draw a "Balloon popped!" message if the balloon has popped
+        // Draw a "Balloon popped" message if the balloon has popped
         if (this.popped) {
             context.fillStyle = 'rgb(57, 86, 171)';
             context.font = 'bold 32px "Libre Baskerville", serif';
             context.textAlign = 'center';
             context.textBaseline = 'middle';
-            context.fillText('Balloon popped!', canvas.width / 2, canvas.height / 2); // Center the message
+            context.fillText('Balloon popped', canvas.width / 2, canvas.height / 2); // Center the message
         }
     
         // guide 
