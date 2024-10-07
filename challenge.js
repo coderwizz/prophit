@@ -285,7 +285,7 @@ export class Balloon extends Challenge {
         context.font = 'bold 17px "Libre Baskerville", serif';
         context.textAlign = 'center'; // Center the text
         context.textBaseline = 'middle'; // Align text vertically
-        context.fillText('Start with $300. Pump, but each time there is probability p it will explode giving fixed winnings $300p.', canvas.width / 2, canvas.height * 0.8); // Draw the question text
+        context.fillText('Start with $300. For each pump, there is probability p it will explode giving final winnings $300p.', canvas.width / 2, canvas.height * 0.8); // Draw the question text
     }
 
     // Draw the button and value on the canvas
@@ -324,10 +324,10 @@ export class Balloon extends Challenge {
     
         // Draw the current value (winnings) on the left side of the canvas
         context.fillStyle = 'rgb(55, 180, 86)';
-        context.font = 'bold 24px "Libre Baskerville", serif';
+        context.font = 'bold 36px "Libre Baskerville", serif';
         context.textAlign = 'left';
         context.textBaseline = 'middle';
-        context.fillText(`Winnings: $${this.value}`, 20, this.buttonY + this.buttonHeight / 2); // 20px margin from the left
+        context.fillText(`Winnings: $${this.value}`, 24, this.buttonY + this.buttonHeight / 2); // 20px margin from the left
     
         // Draw a "Balloon popped!" message if the balloon has popped
         if (this.popped) {
