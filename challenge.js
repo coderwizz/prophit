@@ -260,10 +260,10 @@ export class Balloon extends Challenge {
 
         // Draw the current value (winnings) on the left side of the canvas
         context.fillStyle = 'rgb(55, 180, 86)';
-        context.font = 'bold 24px "Libre Baskerville", serif';
+        context.font = 'bold 36x "Libre Baskerville", serif';
         context.textAlign = 'left';
         context.textBaseline = 'middle';
-        context.fillText(`Winnings: $${this.value}`, 20, this.buttonY + this.buttonHeight / 2); // 20px margin from the left
+        context.fillText(`Winnings: $${this.value}`, 24, this.buttonY + this.buttonHeight / 2); // 20px margin from the left
 
         // Draw a "Balloon popped!" message if the balloon has popped
         if (this.popped) {
