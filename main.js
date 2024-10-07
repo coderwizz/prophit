@@ -159,9 +159,10 @@ window.addEventListener('load', function () {
     // Function to draw a button
     function drawButton(button) {
         // Determine button color based on hover state
-        ctx1.fillStyle = button.isHovered ? 'rgb(70, 0, 100)' : 'rgb(116, 7, 130)'; // Dark magenta shades
-        ctx1.fillRect(button.x, button.y, button.width, button.height); // Draw button rectangle
-
+        ctx1.strokeStyle = button.isHovered ? 'rgb(200, 50, 200)' : 'rgb(150, 0, 150)'; // Border color
+        ctx1.lineWidth = 5; // Set border width
+        ctx1.strokeRect(button.x, button.y, button.width, button.height); // Draw button border
+    
         // Button text
         ctx1.fillStyle = 'white'; // Text color
         ctx1.font = 'bold 72px "Libre Baskerville", serif';
