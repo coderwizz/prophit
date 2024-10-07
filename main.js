@@ -15,9 +15,9 @@ window.addEventListener('load', function () {
     // Button configurations
     const buttons = [
         {
-            x: 155,
+            x: 157,
             y: 15,
-            width: 628,
+            width: 626,
             height: 229,
             text: 'Prophet Inequality',
             ver: 0,
