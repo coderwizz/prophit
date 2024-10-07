@@ -282,7 +282,7 @@ export class Balloon extends Challenge {
         context.fillText('Take a moment to study the asset.', 406, 65); // Draw the text
         // actual
         context.fillStyle = 'rgb(57, 86, 171)'; // Text color
-        context.font = 'bold 18px "Libre Baskerville", serif';
+        context.font = 'bold 18.5px "Libre Baskerville", serif';
         context.textAlign = 'center'; // Center the text
         context.textBaseline = 'middle'; // Align text vertically
         context.fillText('Start with $300. For each pump, there is probability p it will pop giving final winnings $300p.', canvas.width / 2, canvas.height * 0.8); // Draw the question text
@@ -346,10 +346,10 @@ export class Balloon extends Challenge {
         context.fillText('The true value of this asset is ...', 406, 65); // Draw the text
         // actual
         context.fillStyle = 'rgb(57, 86, 171)'; // Text color
-        context.font = 'bold 18px "Libre Baskerville", serif';
+        context.font = 'bold 18.5px "Libre Baskerville", serif';
         context.textAlign = 'center'; // Center the text
         context.textBaseline = 'middle'; // Align text vertically
-        context.fillText('Start with $300. Pump, but each time there is probability p it will pop giving final winnings $300p.', canvas.width / 2, canvas.height * 0.8); // Draw the question text
+        context.fillText('Start with $300. For each pump, there is probability p it will pop giving final winnings $300p.', canvas.width / 2, canvas.height * 0.8); // Draw the question text
         this.pval = this.value;
         game.sel = this.value;
     }
