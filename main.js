@@ -152,7 +152,7 @@ window.addEventListener('load', function () {
         ctx1.textBaseline = 'middle'; // Align text vertically
         let totalScore = parseFloat(localStorage.getItem('totalScore' + val.ver)) || 0;
         let numberOfSessions = parseInt(localStorage.getItem('numberOfSessions' + val.ver)) || 0;
-        let percent = Math.round(totalScore / numberOfSessions);
+        let percent = numberOfSessions > 0 ? Math.round(totalScore / numberOfSessions) : 0;
         ctx1.fillText(percent + '%', val.x, val.y); // Draw the text
     }
 
