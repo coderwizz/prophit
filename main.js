@@ -15,7 +15,7 @@ window.addEventListener('load', function () {
     // Button configurations
     const buttons = [
         {
-            x: 157,
+            x: 159,
             y: 15,
             width: 626,
             height: 229,
