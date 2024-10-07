@@ -18,7 +18,7 @@ window.addEventListener('load', function () {
             x: 160,
             y: 15,
             width: 627,
-            height: 228,
+            height: 229,
             text: 'Prophet Inequality',
             ver: 0,
             isHovered: false // Track hover state
