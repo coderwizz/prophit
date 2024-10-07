@@ -164,7 +164,7 @@ window.addEventListener('load', function () {
         ctx1.strokeRect(button.x, button.y, button.width, button.height); // Draw button border
     
         // Button text
-        ctx1.fillStyle = 'white'; // Text color
+        ctx1.fillStyle = button.isHovered ? 'rgb(200, 50, 200)' : 'rgb(150, 0, 150)'; // Text color
         ctx1.font = 'bold 72px "Libre Baskerville", serif';
         ctx1.textAlign = 'center'; // Center the text
         ctx1.textBaseline = 'middle'; // Align text vertically
