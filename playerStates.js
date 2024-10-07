@@ -1,4 +1,4 @@
-import { Temp, Scoreboard, Estimation, Uniform, Exponential, Balloon} from "./challenge.js";
+import { Temp, Scoreboard, Estimation, Uniform, Exponential, Balloon } from "./challenge.js";
 import { loadCSVData } from './csv.js';
 
 let data = []; // Declare a variable to hold the loaded CSV data
