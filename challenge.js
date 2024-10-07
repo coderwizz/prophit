@@ -127,7 +127,7 @@ export class Scoreboard extends Challenge {
 }
 
 export class Balloon extends Challenge {
-    constructor(p =  Math.random() * (0.91 - 0.51) + 0.51) {
+    constructor(p =  Math.random() * (0.91 - 0.56) + 0.56) {
         super('Balloon');
         this.frameX = 0;
         this.frameY = 0;
@@ -271,7 +271,7 @@ export class Balloon extends Challenge {
             context.font = 'bold 32px "Libre Baskerville", serif';
             context.textAlign = 'center';
             context.textBaseline = 'middle';
-            context.fillText('Balloon popped', canvas.width / 2, canvas.height / 2); // Center the message
+            context.fillText('Balloon popped :(', canvas.width / 2, canvas.height / 2); // Center the message
         }
 
         // guide 
@@ -335,7 +335,7 @@ export class Balloon extends Challenge {
             context.font = 'bold 32px "Libre Baskerville", serif';
             context.textAlign = 'center';
             context.textBaseline = 'middle';
-            context.fillText('Balloon popped', canvas.width / 2, canvas.height / 2); // Center the message
+            context.fillText('Balloon popped :(', canvas.width / 2, canvas.height / 2); // Center the message
         }
     
         // guide 
