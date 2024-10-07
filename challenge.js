@@ -127,7 +127,7 @@ export class Scoreboard extends Challenge {
 }
 
 export class Balloon extends Challenge {
-    constructor(p =  Math.random() * (0.91 - 0.59) + 0.59) {
+    constructor(p =  Math.random() * (0.91 - 0.66) + 0.66) {
         super('Balloon');
         this.frameX = 0;
         this.frameY = 0;
