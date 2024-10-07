@@ -349,7 +349,7 @@ export class Balloon extends Challenge {
         context.font = 'bold 18px "Libre Baskerville", serif';
         context.textAlign = 'center'; // Center the text
         context.textBaseline = 'middle'; // Align text vertically
-        context.fillText('Start with $300. Pump, but each time there is probability p it will pop giving fixed winnings $300p.', canvas.width / 2, canvas.height * 0.8); // Draw the question text
+        context.fillText('Start with $300. Pump, but each time there is probability p it will pop giving final winnings $300p.', canvas.width / 2, canvas.height * 0.8); // Draw the question text
         this.pval = this.value;
         game.sel = this.value;
     }
