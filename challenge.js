@@ -441,7 +441,7 @@ export class Exponential extends Challenge {
         super('Exponential');
         // Only set the random question once if it has not already been set
         if (!this.lambda) {
-            this.lambda = (Math.floor(Math.random() * 9) * 2 + 19) / 100;
+            this.lambda = (Math.floor(Math.random() * 10) * 2 + 17) / 100;
         }
         this.reviewed = 0;
         if (this.reviewed === 0) {
