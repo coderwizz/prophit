@@ -469,7 +469,7 @@ export class Exponential extends Challenge {
         context.fillText('Take a moment to study the asset.', 406, 65); // Draw the text
         // actual
         context.fillStyle = 'rgb(57, 86, 171)'; // Text color
-        context.font = 'bold 28px "Libre Baskerville", serif';
+        context.font = 'bold 27px "Libre Baskerville", serif';
         context.textAlign = 'center'; // Center the text
         context.textBaseline = 'middle'; // Align text vertically
         context.fillText('$N, where N is the closest integer from an 100exp(' +this.lambda+') distribution.', canvas.width / 2, canvas.height / 2); // Draw the question text
@@ -488,7 +488,7 @@ export class Exponential extends Challenge {
         context.fillText('The true value of this asset is ...', 406, 65); // Draw the text
         // prompt
         context.fillStyle = 'rgb(57, 86, 171)'; // Text color
-        context.font = 'bold 28px "Libre Baskerville", serif';
+        context.font = 'bold 27px "Libre Baskerville", serif';
         context.textAlign = 'center'; // Center the text
         context.textBaseline = 'middle'; // Align text vertically
         context.fillText('$N, where N is the closest integer from an 100exp(' +this.lambda+') distribution.', canvas.width / 2, canvas.height / 3); // Draw the question text
